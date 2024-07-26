@@ -1418,15 +1418,16 @@ section,
 }
 
 .portfolio .portfolio-item .portfolio-info {
-  opacity: 0;
+  opacity: 1; /*changed from 0 to 1 */
   position: absolute;
   left: 12px;
   right: 12px;
-  bottom: -100%;
+  bottom: 0; /*changed from -100% to 0 */
   z-index: 3;
   transition: all ease-in-out 0.5s;
   background: color-mix(in srgb, var(--background-color), transparent 10%);
   padding: 15px;
+  
 }
 
 .portfolio .portfolio-item .portfolio-info h4 {
@@ -2065,4 +2066,9 @@ section,
 --------------------------------------------------------------*/
 .starter-section {
   /* Add your styles here */
+}
+
+#leaderboard image 
+#leaderboard-img {
+  height: 700px;
 }
